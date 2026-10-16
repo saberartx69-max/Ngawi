@@ -82,7 +82,7 @@ function checkout() {
     showToast("Isi nama pemesan terlebih dahulu.");
     return;
   }
-  if (!/^\d{10,15}$/.test(WHATSAPP_NUMBER) || WHATSAPP_NUMBER === "6283139460735") {
+  if (!/^\d{10,15}$/.test(WHATSAPP_NUMBER) || WHATSAPP_NUMBER === "") {
     showToast("Atur nomor WhatsApp admin di file script.js terlebih dahulu.");
     return;
   }
